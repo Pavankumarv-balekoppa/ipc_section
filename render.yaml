@@ -1,0 +1,11 @@
+# Exported from Render on 2024-09-04T15:00:20Z
+services:
+- type: web
+  name: Pavan-IpcSection
+  runtime: node
+  repo: https://github.com/Pavankumarv-balekoppa/ipc_section
+  plan: free
+  region: oregon
+  buildCommand: yarn
+  startCommand: node index.js
+version: "1"
